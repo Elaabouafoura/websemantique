@@ -1,0 +1,873 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9/"
+     xml:base="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-9="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9">
+        <owl:versionIRI rdf:resource="http://www.smartcity.org/ontologies/SmartCity/1.0"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#accèdeÀ -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#accèdeÀ">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Utilisateur"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Infrastructure"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#avoirTicket -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#avoirTicket">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Utilisateur"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#commenceÀ -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#commenceÀ">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Trajet"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Infrastructure"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#conduit -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#conduit">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Conducteur"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#RéseauTransport"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#disposeDe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#disposeDe">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Infrastructure"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#RéseauTransport"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#donnéPar -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#donnéPar">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Avis"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Utilisateur"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#effectue -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#effectue">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Utilisateur"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Trajet"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#estConnectéÀ -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#estConnectéÀ">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#RéseauTransport"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Infrastructure"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#estDesserviPar -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#estDesserviPar">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Trajet"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#RéseauTransport"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#observe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#observe">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Utilisateur"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#statistique"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#seRecharge -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#seRecharge">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#RéseauTransport"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Energie"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#seTermineÀ -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#seTermineÀ">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Trajet"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Infrastructure"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#seTrouve -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#seTrouve">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Event"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Infrastructure"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#utilise -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#utilise">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Utilisateur"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#RéseauTransport"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#TypeTransport -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#TypeTransport">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#RéseauTransport"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#adresse -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#adresse">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Utilisateur"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#age -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#age">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Utilisateur"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#amende -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#amende">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#radar"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#capacite -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#capacite">
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#dateArrivee -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#dateArrivee">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Trajet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#dateDepart -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#dateDepart">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Trajet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#dateMesure -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#dateMesure">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#statistique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#date_event -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#date_event">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Event"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#description -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#description">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Avis"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Infrastructure"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#smartCity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#distance -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#distance">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Trajet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#duree -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#duree">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Trajet"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#estAccessible -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#estAccessible">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Infrastructure"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#gouvernance -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#gouvernance">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#smartCity"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#id_user -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#id_user">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#marque -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#marque">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Energie"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#RéseauTransport"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#matricule -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#matricule">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#RéseauTransport"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#nbreDaccident -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#nbreDaccident">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#statistiqueAccident"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#nom -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#nom">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#RéseauTransport"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Ticket"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Utilisateur"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#numeroTicket -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#numeroTicket">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Ticket"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#pourcentage -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#pourcentage">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#statistique"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#tauxpolution -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#tauxpolution">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#StatistiquePollution"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#type_energie -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#type_energie">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#StationRecharge"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Avis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Avis">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#donnéPar"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Utilisateur"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#BUS -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#BUS">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#RéseauTransport"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Voiture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Conducteur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Conducteur">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#conduit"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#RéseauTransport"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Utilisateur"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Energie -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Energie"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Event -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Event">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#seTrouve"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Infrastructure"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Infrastructure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Infrastructure">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#disposeDe"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#RéseauTransport"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Métro -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Métro">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#RéseauTransport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Piéton -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Piéton">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Utilisateur"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#RéseauTransport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#RéseauTransport">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#estConnectéÀ"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Infrastructure"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#seRecharge"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Energie"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#StationRecharge -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#StationRecharge">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Energie"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#StatistiquePollution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#StatistiquePollution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#statistique"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Ticket -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Ticket">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#avoirTicket"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Utilisateur"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Trajet -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Trajet">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#commenceÀ"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Infrastructure"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#estConnectéÀ"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Infrastructure"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#estDesserviPar"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#RéseauTransport"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#seTermineÀ"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Infrastructure"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Trottinette -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Trottinette">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#RéseauTransport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Utilisateur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Utilisateur">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#accèdeÀ"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Infrastructure"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Voiture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Voiture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#RéseauTransport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Voyageur -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Voyageur">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Utilisateur"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Vélo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Vélo">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#RéseauTransport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#accident -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#accident">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#embouteillage -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#embouteillage">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#parking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#parking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Infrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#radar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#radar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Event"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#route -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#route">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Infrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#smartCity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#smartCity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#stationsBus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#stationsBus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Infrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#stationsMetro -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#stationsMetro">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Infrastructure"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#statistique -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#statistique"/>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#statistiqueAccident -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#statistiqueAccident">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#statistique"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Bus_42 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Bus_42">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#BUS"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Houda -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Houda">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Utilisateur"/>
+        <untitled-ontology-9:utilise rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Bus_42"/>
+        <untitled-ontology-9:utilise rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#voiture-00"/>
+        <untitled-ontology-9:nom>Houda</untitled-ontology-9:nom>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Reclamation-bug -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Reclamation-bug">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Avis"/>
+        <untitled-ontology-9:donnéPar rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#wassef"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#accidentmortel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#accidentmortel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#accident"/>
+        <untitled-ontology-9:seTrouve rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#routeX"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#diesel50 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#diesel50">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#StationRecharge"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#fourat -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#fourat">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Utilisateur"/>
+        <untitled-ontology-9:observe rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#taux_poluttions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#metro3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#metro3">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Métro"/>
+        <untitled-ontology-9:estConnectéÀ rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#stationbarcelona"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#nour -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#nour">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Conducteur"/>
+        <untitled-ontology-9:accèdeÀ rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#parkingEsprit"/>
+        <untitled-ontology-9:avoirTicket rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#ticket-sfax"/>
+        <untitled-ontology-9:conduit rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#voiture-00"/>
+        <untitled-ontology-9:observe rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#taux_poluttions"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#panamera -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#panamera">
+        <untitled-ontology-9:seRecharge rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#diesel50"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#parkingEsprit -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#parkingEsprit">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#parking"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#routeX -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#routeX">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#route"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#stationbarcelona -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#stationbarcelona">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#stationsMetro"/>
+        <untitled-ontology-9:disposeDe rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#metro3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#taux_poluttions -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#taux_poluttions">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#StatistiquePollution"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#ticket-sfax -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#ticket-sfax">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Ticket"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#tunis-mahdia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#tunis-mahdia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Trajet"/>
+        <untitled-ontology-9:estDesserviPar rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#voiture-00"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#voiture-00 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#voiture-00">
+        <untitled-ontology-9:nom>voiture-00</untitled-ontology-9:nom>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#wassef -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#wassef">
+        <rdf:type rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#Utilisateur"/>
+        <untitled-ontology-9:effectue rdf:resource="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#tunis-mahdia"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#24 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/chamb/ontologies/2025/8/untitled-ontology-9#24">
+        <untitled-ontology-9:age rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">24</untitled-ontology-9:age>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
